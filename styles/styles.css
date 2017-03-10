@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'museo300';
+    src: url('Museo300-Regular-webfont.eot');
+    src: url('Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Museo300-Regular-webfont.woff2') format('woff2'),
+         url('Museo300-Regular-webfont.woff') format('woff'),
+         url('Museo300-Regular-webfont.ttf') format('truetype'),
+         url('Museo300-Regular-webfont.svg#museo300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ba-clearfix:before,
+.ba-clearfix:after {
+	content: "";
+	display: table;
+}
+
+.ba-clearfix:after {
+	clear:both;
+}
+
+.ba-clearfix {
+	clear:both;
+	*zoom: 1;
+}
+
+.body {
+	font-family: 
+}
+
+.ba-container {
+	margin: 0 auto;
+	background: url(../images/bg.jpg) center center no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	font-family: Myriad Pro, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #a4a7ab;
+	position: relative;
+}
+
+.ba-product {
+	width: 700px;
+	height: 400px;
+	background-color: #111a28;
+	border-radius: 10px;
+	box-shadow: 0 0 65px 10px rgba(0,0,0,0.6);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.ba-product__header {
+	height: 65px;
+	padding: 20px 20px;
+}
+
+/* styles for .ba-product__gallery */
+
+.ba-product__gallery {
+	float: left;
+	width: 55%;
+	padding: 50px 30px;
+}
+
+.ba-product__slider {
+	width: 55%;;
+	padding: 20px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+.ba-product__container {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.ba-product__button {
+	border-radius: 50%;
+	padding: 5px;
+	border: none;
+	outline:none;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+.ba-product__button:hover {
+	padding: 8px;
+}
+
+.ba-product__button--active {
+	background-color: #1f273f;
+	border: 1px solid #6d727b;
+	padding: 8px
+}
+
+.ba-product__button--white {
+	background-color: #fff;
+}
+
+.ba-product__button--red {
+	background-color: red;
+}
+
+.ba-product__button--blue {
+	background-color: #29e3ea;
+}
+
+/* styles for .ba-product__info*/
+
+.ba-product__info {
+	float: right;
+	width: 45%;
+	padding: 0 30px;
+	font-family: "museo300", sans-serif;
+	
+}
+
+.ba-product__title {
+	font-size: 24px;
+	font-weight: 300;
+	color: #e1e1e1;
+}
+
+.ba-product__description {
+	font-size: 14px;
+	color: #808386;
+}
+
+.ba-product__rating {
+	padding: 20px 0;
+}
+
+/* styles for .ba-product__dropdown */
+
+.ba-product__dropdown {
+	width: 73px;
+	height: 33px;
+	background-color: #111a28;
+	color: #4f5560;
+	border: 1px solid #4f5560;
+	padding: 0 10px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.ba-product__button--add {
+	width: 180px;
+	height: 40px;
+	background-color: #202835;
+	color: #8c9095;
+	border: 1px solid #8c9095;
+	cursor: pointer;
+	transition: .2s ease-in;
+}
+
+.ba-product__button--add:hover {
+	background-color: #4f5560;
+	color: #202835;
+}
